@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="tom_holland">Tom Holland</string>
+    <string name="popularity_39_627">Popularity:39.627</string>
+    <string name="spider_man">Spider Man</string>
+    <string name="actor_character">Actor Character:</string>
+    <string name="popular">Popular</string>
+    <string name="recent">Recent</string>
+    <string name="actors">Actors</string>
+    <string name="buy_ticket">Buy Ticket</string>
+</resources>
