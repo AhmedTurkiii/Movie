@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ahmed.movieapp.model.data.network.response.MovieEntity
 import com.ahmed.movieapp.model.repository.imp.MovieRepositoryImp
-import com.ahmed.movieapp.utils.hasConnection
+import com.ahmed.movieapp.utils.ConnectionUtil
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
@@ -19,7 +19,7 @@ class HomeScreenViewModel @Inject constructor(private val repo: MovieRepositoryI
 
     fun loadData() {
         progressLiveData.value = true
-        if (hasConnection()) {
+        if (ConnectionUtil.hasConnection()) {
             repo.getMovieList().onEach {
                 it.onFailure {
                     progressLiveData.value = false
