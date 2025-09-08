@@ -1,5 +1,11 @@
 # 🎬 MovieApp
 
+<div align="center">
+  <img src="assets/logo/movieapp-logo.svg" alt="MovieApp Logo" width="200" height="200">
+  <br>
+  <em>Discover Your Next Favorite Movie</em>
+</div>
+
 A modern Android movie discovery app built with Kotlin, showcasing popular movies with a beautiful Material Design interface.
 
 ## ✨ Features
@@ -47,6 +53,18 @@ This project follows **MVVM (Model-View-ViewModel)** architecture with:
 - **Unit Testing**: JUnit, Mockito, MockK
 - **UI Testing**: Espresso
 - **Architecture Testing**: Core Testing
+
+## 🎨 Logo & Branding
+
+The MovieApp logo features a modern film strip design with a play button, representing the core functionality of movie discovery and playback.
+
+### Logo Variations
+- **Full Logo**: Complete logo with app name and tagline
+- **Mini Logo**: Compact version for app icons
+- **Text Logo**: Horizontal layout for headers
+- **Favicon**: Browser tab icon
+
+All logo assets are available in the [`assets/logo/`](assets/logo/) directory in SVG format for scalability.
 
 ## 📱 Screenshots
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Film Icon -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="15" width="50" height="30" fill="#2d2d2d" rx="4"/>
+    
+    <!-- Film Strip Holes -->
+    <rect x="-5" y="18" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    <rect x="-5" y="25" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    <rect x="-5" y="32" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    
+    <rect x="51" y="18" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    <rect x="51" y="25" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    <rect x="51" y="32" width="4" height="4" fill="#1a1a1a" rx="1"/>
+    
+    <!-- Movie Screen -->
+    <rect x="10" y="22" width="30" height="16" fill="#000000" rx="2"/>
+    
+    <!-- Play Button -->
+    <polygon points="20,28 20,32 28,30" fill="#ff6b35"/>
+  </g>
+  
+  <!-- App Name -->
+  <text x="80" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">MovieApp</text>
+  
+  <!-- Tagline -->
+  <text x="80" y="60" font-family="Arial, sans-serif" font-size="14" fill="#ff6b35">Discover Your Next Favorite Movie</text>
+</svg>

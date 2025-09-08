@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp Logo Preview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ff6b35;
+            margin-bottom: 40px;
+        }
+        
+        .logo-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 20px 0;
+        }
+        
+        .logo-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .logo-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .logo-item h3 {
+            color: #ff6b35;
+            margin-bottom: 15px;
+        }
+        
+        .logo-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .color-box {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        .primary { background: #ff6b35; color: white; }
+        .background { background: #1a1a1a; color: white; }
+        .secondary { background: #2d2d2d; color: white; }
+        .text { background: #ffffff; color: #1a1a1a; }
+        
+        .usage-section {
+            background: rgba(255, 107, 53, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .usage-section h3 {
+            color: #ff6b35;
+        }
+        
+        .usage-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .usage-section li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .usage-section li:before {
+            content: "✓ ";
+            color: #ff6b35;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 MovieApp Logo Assets</h1>
+        
+        <div class="logo-section">
+            <h2>Logo Variations</h2>
+            <div class="logo-grid">
+                <div class="logo-item">
+                    <h3>Full Logo</h3>
+                    <img src="assets/logo/movieapp-logo.svg" alt="Full Logo">
+                    <p>Complete logo with app name and tagline</p>
+                </div>
+                
+                <div class="logo-item">
+                    <h3>Mini Logo</h3>
+                    <img src="assets/logo/movieapp-logo-mini.svg" alt="Mini Logo">
+                    <p>Compact version for app icons</p>
+                </div>
+                
+                <div class="logo-item">
+                    <h3>Text Logo</h3>
+                    <img src="assets/logo/movieapp-text-logo.svg" alt="Text Logo">
+                    <p>Horizontal layout for headers</p>
+                </div>
+                
+                <div class="logo-item">
+                    <h3>Favicon</h3>
+                    <img src="assets/logo/movieapp-favicon.svg" alt="Favicon">
+                    <p>Browser tab icon</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="logo-section">
+            <h2>Color Palette</h2>
+            <div class="color-palette">
+                <div class="color-box primary">
+                    Primary<br>#ff6b35
+                </div>
+                <div class="color-box background">
+                    Background<br>#1a1a1a
+                </div>
+                <div class="color-box secondary">
+                    Secondary<br>#2d2d2d
+                </div>
+                <div class="color-box text">
+                    Text<br>#ffffff
+                </div>
+            </div>
+        </div>
+        
+        <div class="usage-section">
+            <h3>Usage Guidelines</h3>
+            <ul>
+                <li>Use SVG format for web and scalable applications</li>
+                <li>Maintain aspect ratio when resizing</li>
+                <li>Keep sufficient white space around the logo</li>
+                <li>Don't modify colors without permission</li>
+                <li>Don't stretch or distort the logo</li>
+                <li>Use appropriate logo size for the context</li>
+            </ul>
+        </div>
+        
+        <div class="usage-section">
+            <h3>File Formats Available</h3>
+            <ul>
+                <li>SVG - Scalable vector format (recommended)</li>
+                <li>PNG - Raster format for print materials</li>
+                <li>Multiple sizes for different use cases</li>
+                <li>High resolution versions available</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
